@@ -48,7 +48,7 @@ const About = () => {
             >
               <Image
                 src="/aviPortfolioImage.jpeg"
-                alt="Aviral"
+                alt="Vedant"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-lg z-10"

@@ -22,6 +22,7 @@ const experiences = [
       "Tailwind CSS",
       "RESTful APIs",
     ],
+    companyLink: "https://zappit.ai",
   },
   {
     company: "IIT Delhi",
@@ -42,6 +43,7 @@ const experiences = [
       "Tailwind CSS",
       "RESTful APIs",
     ],
+    companyLink: "https://digitisemybusiness.com",
   },
 ];
 
