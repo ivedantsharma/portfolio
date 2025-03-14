@@ -74,7 +74,7 @@ export const Hero = () => {
         >
           <TypeAnimation
             sequence={[
-              "SOFTWARE ENGINEER, FRONTEND DEVELOPER",
+              "SOFTWARE ENGINEER, FULLSTACK DEVELOPER",
               2000,
               "ENGINEERING THE WEB",
               2000,
