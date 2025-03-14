@@ -111,7 +111,7 @@ const About = () => {
               Contact Me <Phone size={20} />
             </Link>
             <Link
-              href="/Aviral-Sharma.pdf"
+              href="/Vedant-Sharma-latest.pdf"
               className="border inline-flex items-center gap-2 border-accent text-accent px-4 md:px-6 py-3 rounded-full text-sm md:text-lg font-semibold hover:bg-blue-500 hover:text-white transition-colors duration-300"
               target="_blank"
               download

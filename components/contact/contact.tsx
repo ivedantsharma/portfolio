@@ -201,7 +201,7 @@ const SpaceshipTerminal = () => {
       name: "Resume",
       icon: FileText,
       color: "#4285F4",
-      link: "/Aviral-Sharma.pdf",
+      link: "/Vedant-Sharma-latest.pdf",
     },
     {
       name: "Instagram",

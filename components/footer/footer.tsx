@@ -50,7 +50,7 @@ const Footer = () => {
           >
             <Link className="font-orbitron" href="/" passHref>
               <span className="text-[33px] font-semibold text-accent mr-[2px]">
-                Avi
+                Vedant
               </span>
               <span className="text-[33px] font-semibold text-foreground mr-[2px]">
                 .
