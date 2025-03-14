@@ -30,7 +30,12 @@ export default function Home() {
       {!loadingComplete ? (
         <LoadingScreen />
       ) : (
-        <motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.5 }} className="min-h-screen overflow-hidden max-w-screen px-5 md:px-10">
+        <motion.main
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="min-h-screen overflow-hidden max-w-screen px-5 md:px-10"
+        >
           <Header />
           <Hero />
           <About />
