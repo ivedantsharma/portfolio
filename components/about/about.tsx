@@ -88,7 +88,7 @@ const About = () => {
             </span>
           </p>
           <p className="md:text-lg text-foreground">
-            Beyond code, I&apos;m a 3th-year engineering student driven by
+            Beyond code, I&apos;m a 3rd-year engineering student driven by
             curiosity and a love for learning. When I&apos;m not coding,
             you&apos;ll find me exploring the latest tech trends or
             collaborating on innovative projects that solve real-world problems.{" "}

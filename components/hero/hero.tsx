@@ -64,7 +64,7 @@ export const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          Vedant SHARMA
+          VEDANT SHARMA
         </motion.h1>
         <motion.div
           className="text-2xl font-spaceGrotesk sm:text-4xl mb-8"
