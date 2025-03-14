@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --accent: #1e88e5; /* blue-600 */
+  --secondary-accent: #7c3aed; /* purple-600 */
+  --project-card: #f3f4f6;
+  --project-card-text: #374151;
+  --minor-project-card: #cbd5e1;
+  --minor-project-card-text: #4b5563;
+  --tech-border: #93c5fd;
+  --minor-project-tech: #596370;
+  --minor-project-tech-border: #596370;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --accent: #2196f3; /* blue-500 */
+  --secondary-accent: #8e24aa; /* purple-600 */
+  --project-card: #11182780;
+  --project-card-text: #d1d5db;
+  --minor-project-card: #1f2937;
+  --minor-project-card-text: #9ca3af;
+  --tech-border: #60a5fa33;
+  --minor-project-tech: #64b5f6;
+  --minor-project-tech-border: rgb(96 165 250 / 0.2);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}

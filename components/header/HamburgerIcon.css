@@ -1,0 +1,155 @@
+/* CSS Variables */
+:root {
+  --toggle-size: 33px;
+  --toggle-line-color: white;
+  --toggle-line-focus-color: white;
+  --toggle-line-size: calc(var(--toggle-size) / 8);
+  --toggle-line-angle: 405deg;
+  --toggle-anim-speed: 0.9s;
+}
+
+.btn-toggle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+  transform: translateZ(0);
+  transition: transform 0.1s ease-out;
+}
+
+.btn-toggle:active {
+  transform: translateY(4px);
+}
+
+.btn-toggle:focus .line::after {
+  background-color: var(--toggle-line-focus-color);
+}
+
+.line {
+  display: block;
+  width: var(--toggle-size);
+  padding: calc(var(--toggle-line-size) / 1.75);
+}
+
+.line::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: var(--toggle-line-size);
+  background-color: var(--toggle-line-color);
+  border-radius: 2px;
+  transform: translateZ(0) rotate(0);
+  transition: background-color 0.2s ease-out;
+}
+
+.btn-toggle.open .line:nth-child(1) {
+  animation: jump-1 var(--toggle-anim-speed) forwards ease;
+}
+
+.btn-toggle.open .line:nth-child(1)::after {
+  animation: line-1 var(--toggle-anim-speed) forwards ease-in-out;
+}
+
+.btn-toggle.open .line:nth-child(2) {
+  animation: jump-2 var(--toggle-anim-speed) forwards ease;
+}
+
+.btn-toggle.open .line:nth-child(2)::after {
+  animation: line-2 var(--toggle-anim-speed) forwards ease-in-out;
+}
+
+.btn-toggle.open .line:nth-child(3) {
+  animation: jump-3 var(--toggle-anim-speed) forwards ease-out;
+}
+
+.btn-toggle.close .line:nth-child(1) {
+  animation: jump-1 var(--toggle-anim-speed) reverse ease;
+}
+
+.btn-toggle.close .line:nth-child(1)::after {
+  animation: line-1 var(--toggle-anim-speed) reverse ease-in-out;
+}
+
+.btn-toggle.close .line:nth-child(2) {
+  animation: jump-2 var(--toggle-anim-speed) reverse ease;
+}
+
+.btn-toggle.close .line:nth-child(2)::after {
+  animation: line-2 var(--toggle-anim-speed) reverse ease-in-out;
+}
+
+.btn-toggle.close .line:nth-child(3) {
+  animation: jump-3 var(--toggle-anim-speed) reverse ease-out;
+}
+
+@keyframes line-1 {
+  10% {
+    transform: translateZ(0) rotate(0);
+  }
+  80% {
+    transform: translateZ(0) rotate(calc(var(--toggle-line-angle) - 10));
+  }
+  90%,
+  100% {
+    transform: translateZ(0) rotate(var(--toggle-line-angle));
+  }
+}
+
+@keyframes line-2 {
+  10% {
+    transform: translateZ(0) rotate(0);
+  }
+  20% {
+    transform: translateZ(0) rotate(10deg);
+  }
+  90%,
+  100% {
+    transform: translateZ(0) rotate(calc(-1 * var(--toggle-line-angle)));
+  }
+}
+
+@keyframes jump-1 {
+  10% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(-1 * var(--toggle-line-size) * 12));
+  }
+  90%,
+  100% {
+    transform: translateY(calc(-1 * var(--toggle-line-size) * 1));
+  }
+}
+
+@keyframes jump-2 {
+  10% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(-1 * var(--toggle-line-size) * 10));
+  }
+  85%,
+  100% {
+    transform: translateY(calc(-1 * var(--toggle-line-size) * 3));
+  }
+}
+
+@keyframes jump-3 {
+  10% {
+    transform: translateY(calc(-1 * var(--toggle-line-size) * 1)) rotate(15deg);
+  }
+  30% {
+    transform: translateY(calc(-1 * var(--toggle-line-size) * 4)) rotate(-10deg);
+  }
+  50% {
+    transform: translateY(var(--toggle-line-size)) rotate(5deg);
+  }
+  80% {
+    transform: translateY(0);
+  }
+}
