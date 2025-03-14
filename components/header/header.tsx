@@ -22,17 +22,28 @@ const Header = () => {
       <nav className="fixed flex justify-between py-5 md:py-7 top-0 left-0 w-full px-5 md:px-10 bg-opacity-50 backdrop-blur-md z-50">
         {/* ---------- LOGO ----------- */}
         <div className="font-orbitron">
-          <span className="text-[33px] lg:text-4xl font-semibold text-accent mr-[2px]">Avi</span>
-          <span className="text-[33px] lg:text-4xl font-semibold text-foreground mr-[2px]">.</span>
-          <span className="text-[33px] lg:text-4xl font-semibold text-secondary-accent">_</span>
+          <span className="text-[33px] lg:text-4xl font-semibold text-accent mr-[2px]">
+            Vedant
+          </span>
+          <span className="text-[33px] lg:text-4xl font-semibold text-foreground mr-[2px]">
+            .
+          </span>
+          <span className="text-[33px] lg:text-4xl font-semibold text-secondary-accent">
+            _
+          </span>
         </div>
 
         {/* ---------- DESKTOP NAVIGATION ----------- */}
         <ul className="hidden md:flex justify-center items-center space-x-8 lg:space-x-14">
           {navItems.map((item) => (
             <li key={item.number}>
-              <Link href={item.href} className="text-lg lg:text-xl font-orbitron cursor-pointer relative">
-                <span className="text-xs absolute top-0 text-accent left-0 -translate-x-5 -translate-y-2">{item.number}</span>
+              <Link
+                href={item.href}
+                className="text-lg lg:text-xl font-orbitron cursor-pointer relative"
+              >
+                <span className="text-xs absolute top-0 text-accent left-0 -translate-x-5 -translate-y-2">
+                  {item.number}
+                </span>
                 <span>{item.name}</span>
               </Link>
             </li>
@@ -91,8 +102,13 @@ const Header = () => {
                     delay: index * 0.2,
                   }}
                 >
-                  <Link href={item.href} className="text-xl font-orbitron cursor-pointer relative">
-                    <span className="text-xs absolute top-0 text-accent left-0 -translate-x-5 -translate-y-2">{item.number}</span>
+                  <Link
+                    href={item.href}
+                    className="text-xl font-orbitron cursor-pointer relative"
+                  >
+                    <span className="text-xs absolute top-0 text-accent left-0 -translate-x-5 -translate-y-2">
+                      {item.number}
+                    </span>
                     <span className="text-white">{item.name}</span>
                   </Link>
                 </motion.li>
@@ -102,7 +118,10 @@ const Header = () => {
         </motion.div>
 
         {/* --------------------- Toggle Menu Button ------------------ */}
-        <div className="right-7 top-[30px] z-100 absolute md:hidden" onClick={toggleMenu}>
+        <div
+          className="right-7 top-[30px] z-100 absolute md:hidden"
+          onClick={toggleMenu}
+        >
           <HamburgerMenu isOpen={isMenuOpen} />
         </div>
         <div className="right-[74px] top-5 absolute md:hidden">

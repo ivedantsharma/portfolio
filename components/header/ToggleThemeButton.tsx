@@ -7,7 +7,9 @@ const ToggleThemeButton = () => {
   // Sync theme state with localStorage and HTML class
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
     const initialTheme = savedTheme || (prefersDark ? "dark" : "dark");
 
     setTheme(initialTheme);
