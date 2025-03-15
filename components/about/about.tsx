@@ -47,7 +47,7 @@ const About = () => {
               transition={{ duration: 1, delay: 0.5 }}
             >
               <Image
-                src="/aviPortfolioImage.jpeg"
+                src="/vedantPortfolioImage.jpeg"
                 alt="Vedant"
                 layout="fill"
                 objectFit="cover"
