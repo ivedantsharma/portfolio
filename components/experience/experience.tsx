@@ -9,7 +9,7 @@ const experiences = [
   {
     company: "Freelancer",
     position: "Fullstack Developer",
-    date: "Aug 2024 -  Present",
+    date: "Nov 2024 -  Present",
     description: [
       "Designed and implemented multiple web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
       "Using Framer Motion for pixel perfect animations and transitions",
@@ -22,12 +22,12 @@ const experiences = [
       "Tailwind CSS",
       "RESTful APIs",
     ],
-    companyLink: "https://zappit.ai",
+    companyLink: "",
   },
   {
     company: "IIT Delhi",
     position: "Tech.future Hackathon 3.0",
-    date: "Jun 2024 - Dec 2024",
+    date: "July 2024",
     description: [
       "Developed features for users to check AQI locally and check carbon footprint for businesses",
       "Built responsive and user-friendly interfaces using React and Tailwind CSS",
@@ -43,7 +43,7 @@ const experiences = [
       "Tailwind CSS",
       "RESTful APIs",
     ],
-    companyLink: "https://digitisemybusiness.com",
+    companyLink: "",
   },
 ];
 
