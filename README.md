@@ -1,6 +1,6 @@
-# Aviral's Portfolio
+# Vedant's Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and journey as a frontend developer.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and journey as a fullstack developer.
 
 ## 🌟 Features
 
@@ -8,7 +8,6 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - Space-themed UI with engaging animations
 - Detailed project showcases
 - Skills and experience highlights
-- Blogs section for sharing knowledge
 - Contact form for easy communication
 
 ## 🚀 Tech Stack
@@ -29,7 +28,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/aviralsharma07/portfolio.git
+git clone https://github.com/ivedantsharma/portfolio.git
 ```
 
 2. Install the dependencies:
@@ -53,7 +52,5 @@ http://localhost:3000
 
 ## Author
 
-- **LinkedIn** - [aviral07](https://www.linkedin.com/in/aviral07/)
-- **Twitter** - [\_aviral07](https://twitter.com/_aviral07)
-- **Github** - [aviralsharma07](https://github.com/aviralsharma07)
-- **Resume** - [Resume](https://flowcv.com/resume/20ntf1waah)
+- **LinkedIn** - [vedantsharma10](https://www.linkedin.com/in/vedantsharma10/)
+- **Github** - [ivedantsharma](https://github.com/ivedantsharma)
