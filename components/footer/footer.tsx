@@ -74,7 +74,7 @@ const Footer = () => {
                 target="_blank"
                 className="hover:underline underline-offset-4 hover:font-semibold"
               >
-                Vedant SHARMA
+                VEDANT SHARMA
               </Link>{" "}
               | ALL RIGHTS RESERVED
             </p>
