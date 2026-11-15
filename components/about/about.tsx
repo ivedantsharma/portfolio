@@ -77,25 +77,28 @@ const About = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <p className="md:text-lg text-foreground">
-            Greetings, voyager! Hi, I&apos;m Vedant, a passionate Fullstack
-            Developer with a knack for building intuitive and high-performance
-            web applications. Currently, I&apos;m working as a freelancer, where
-            I&apos;ve contributed to projects like Resumemate, a dynamic resume
-            builder platform, honing my expertise in{" "}
+            Greetings, voyager! Hi, I&apos;m Vedant, a Software Engineer at{" "}
+            <span className="font-bold">Google</span> by day and an empirical AI
+            researcher by night. In production, I build function-calling LLM
+            agents and natural-language-to-SQL engines running at petabyte scale.
+            Outside of work, I research how language models organize and reason
+            over external data—designing{" "}
             <span className="font-bold">
-              NextJs, MERN stack, PostgreSQL, Tailwind CSS, and RESTful API
-              integration.
+              agent-native knowledge architectures, RL retrieval policies, and
+              adversarial RAG evaluations.
             </span>
           </p>
           <p className="md:text-lg text-foreground">
-            Beyond code, I&apos;m a 3rd-year engineering student driven by
-            curiosity and a love for learning. When I&apos;m not coding,
-            you&apos;ll find me exploring the latest tech trends or
-            collaborating on innovative projects that solve real-world problems.{" "}
+            Before diving deep into AI and distributed systems, I sharpened my
+            problem-solving instincts on the competitive programming circuit as
+            an <span className="font-bold">ICPC Regionalist</span> and{" "}
+            <span className="font-bold">Codeforces Expert</span>. When I&apos;m
+            not debugging tail latency or training a new retrieval policy,
+            you&apos;ll find me exploring first-principles research, tinkering
+            with low-level C++, or{" "}
             <span className="font-bold">
-              I&apos;m excited to connect and contribute to impactful teams
-              where I can continue growing as a developer and make meaningful
-              contributions.
+              collaborating with builders who care about making AI systems
+              genuinely reliable.
             </span>
           </p>
           <motion.div
@@ -111,7 +114,7 @@ const About = () => {
               Contact Me <Phone size={20} />
             </Link>
             <Link
-              href="/Vedant-Sharma-latest.pdf"
+              href="/resume_vedant_sharma.pdf"
               className="border inline-flex items-center gap-2 border-accent text-accent px-4 md:px-6 py-3 rounded-full text-sm md:text-lg font-semibold hover:bg-blue-500 hover:text-white transition-colors duration-300"
               target="_blank"
               download

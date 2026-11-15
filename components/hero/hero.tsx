@@ -74,11 +74,11 @@ export const Hero = () => {
         >
           <TypeAnimation
             sequence={[
-              "SOFTWARE ENGINEER, FULLSTACK DEVELOPER",
+              "SOFTWARE ENGINEER, @ Google",
               2000,
               "ENGINEERING THE WEB",
               2000,
-              "RESPONSIVE BY DESIGN",
+              "AGENTIC AI & RL RESEARCHER",
               2000,
             ]}
             wrapper="span"

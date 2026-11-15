@@ -18,9 +18,9 @@ const orbitron = Orbitron({
 
 // Title and description of my Developer Portfolio
 export const metadata: Metadata = {
-  title: "Vedant Sharma | Software Engineer | Fullstack Developer",
+  title: "Vedant Sharma | Software Engineer | Research Engineer",
   description:
-    "Portfolio of Vedant Sharma, Software Engineer specializing in fullstack development.",
+    "Portfolio of Vedant Sharma, Software Engineer specializing in AI research & fullstack development.",
 };
 
 export default function RootLayout({

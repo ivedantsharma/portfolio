@@ -28,7 +28,7 @@ const Header = () => {
             .
           </span>
           <span className="text-[33px] lg:text-4xl font-semibold text-secondary-accent">
-            _
+            sh
           </span>
         </div>
 

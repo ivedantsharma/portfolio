@@ -7,9 +7,45 @@ import Link from "next/link";
 
 const experiences = [
   {
+    company: "Google",
+    position: "Software Engineer",
+    date: "July 2026 - Present",
+    description: [
+      "Built a Python/Google ADK function-calling LLM agent integrating passage-level chunking and approximate search over a 768-dimensional, SFP8-quantized vector corpus spanning 8 knowledge domains",
+      "Developed an NL-to-SQL engine translating natural-language queries into federated GoogleSQL over a petabyte-scale data warehouse with live P50/P95/P99 latency reporting",
+      "Instrumented Java-based anomaly detection on production response streams to flag unrecognized entitlement-source types and surface data-integrity drift between transactional and billing systems",
+    ],
+    tech: [
+      "Python",
+      "Google ADK",
+      "Java",
+      "GoogleSQL",
+      "Vector Search",
+      "Distributed Systems",
+    ],
+    companyLink: "https://www.google.com",
+  },
+  {
+    company: "Google",
+    position: "Software Engineering Intern",
+    date: "June 2025 - Sep 2025",
+    description: [
+      "Conducted statistical analysis on high-throughput notification logs to uncover redundancy patterns, deriving a filtering heuristic that optimized routing efficiency by 30%",
+      "Designed a stateful delta-threshold signal-filtering algorithm to suppress pipeline noise, reducing redundant event processing by 90% and improving signal-to-noise ratio",
+    ],
+    tech: [
+      "Java",
+      "Python",
+      "Statistical Analysis",
+      "Streaming Pipelines",
+      "Telemetry",
+    ],
+    companyLink: "https://www.google.com",
+  },
+  {
     company: "Freelancer",
     position: "Fullstack Developer",
-    date: "Nov 2024 -  Present",
+    date: "Nov 2024 - May 2025",
     description: [
       "Designed and implemented multiple web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
       "Using Framer Motion for pixel perfect animations and transitions",
@@ -19,27 +55,6 @@ const experiences = [
       "React",
       "ExpressJs",
       "TypeScript",
-      "Tailwind CSS",
-      "RESTful APIs",
-    ],
-    companyLink: "",
-  },
-  {
-    company: "IIT Delhi",
-    position: "Tech.future Hackathon 3.0",
-    date: "July 2024",
-    description: [
-      "Developed features for users to check AQI locally and check carbon footprint for businesses",
-      "Built responsive and user-friendly interfaces using React and Tailwind CSS",
-      "Integrated RESTful APIs for seamless real-time functionality",
-      "Optimized performance by reducing load times and ensuring cross-browser compatibility",
-      "Some of the features include carbon heat map, carbon calculator, carbon rating and AI assistance.",
-    ],
-    tech: [
-      "NextJs",
-      "React",
-      "TypeScript",
-      "MongoDB",
       "Tailwind CSS",
       "RESTful APIs",
     ],

@@ -195,13 +195,13 @@ const SpaceshipTerminal = () => {
       name: "Email",
       icon: Mail,
       color: "#D44638",
-      link: "mailto:vedantsharma102004@gmail.com",
+      link: "mailto:vedantsharma1016@gmail.com",
     },
     {
       name: "Resume",
       icon: FileText,
       color: "#4285F4",
-      link: "/Vedant-Sharma-latest.pdf",
+      link: "/resume_vedant_sharma.pdf",
     },
     {
       name: "Instagram",
