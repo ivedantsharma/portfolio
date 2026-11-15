@@ -49,8 +49,3 @@ npm run dev
 ```bash
 http://localhost:3000
 ```
-
-## Author
-
-- **LinkedIn** - [vedantsharma10](https://www.linkedin.com/in/vedantsharma10/)
-- **Github** - [ivedantsharma](https://github.com/ivedantsharma)
